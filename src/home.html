@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <!-- <link rel="stylesheet" href="../public/fonts/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf"> -->
+    <link rel="stylesheet" href="./style/main.css">
+    <link rel="stylesheet" href="./style/home.css">
+    <script src="https://kit.fontawesome.com/e7a7d8cf45.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <div class="header-nav" id="header-menu">
+                <div class="header-title">
+                    <a href="./home.html" class="primary-link">
+                        wHeel Hub
+                    </a>
+                </div>
+                <div class="collapse close">
+                    <div class="nav-item"><a href="./home.html" class="nav-link active">Home</a></div>
+                    <div class="nav-item"><a href="./aboutus.html" class="nav-link">About Us</a></div>
+                    <div class="nav-item"><a href="./allcar.html" class="nav-link">All Cars</a></div>
+                    <div class="nav-item"><a href="./promotion.html" class="nav-link">Promotion</a></div>
+                </div>
+            </div>
+            <div class="responsive-navbar">
+                <a id="menu-icon-navbar">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="menu-icons" value="bars-solid">
+                        <path fill="#d9d9d9"
+                            d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
+                    </svg>
+                </a>
+            </div>
+            <div class="nav-item register-block"><a href="./register.html" class="nav-link register">Register</a></div>
+        </div>
+        <div class="sidebar" id="sidebar">
+            <div class="sidebar-background" id="sidebar-background"></div>
+            <div class="sidebar-content" id="sidebar-content">
+                <div class="sidebar-nav">
+                    <div class="sidebar-item"><a href="./home.html" class="sidebar-link">Home</a></div>
+                    <div class="sidebar-item"><a href="./aboutus.html" class="sidebar-link">About Us</a></div>
+                    <div class="sidebar-item"><a href="./allcar.html" class="sidebar-link">All Cars</a></div>
+                    <div class="sidebar-item"><a href="./promotion.html" class="sidebar-link">Promotion</a></div>
+                </div>
+                <div class="sidebar-item sidebar-register"><a href="./register.html" class="sidebar-link">Register</a></div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="section-promotions" id="section-banner">
+            <div class="promotion-banner">
+                <div class="promotion-slider">
+                    <div class="promotion-images">
+                        <!-- <img src="../public/Assets/promotion_banner/2024_corola_hatchback.jpeg" alt=""
+                            class="promotion-image">
+                        <img src="../public/Assets/promotion_banner/2023_mirai.jpeg" alt=""
+                            class="promotion-image">
+                        <img src="../public/Assets/promotion_banner/2024_corola_hybrid.jpeg" alt=""
+                            class="promotion-image">
+                        <img src="../public/Assets/promotion_banner/2024_highlander_hybrid.jpeg" alt=""
+                            class="promotion-image">
+                        <img src="../public/Assets/promotion_banner/2024_sienna.jpeg" alt=""
+                            class="promotion-image"> -->
+                    </div>
+                </div>
+
+                <div class="promotion-description">
+                    <span class="promotion-title">
+                        <h1 id="promotionTitle">New Car Arrival</h1>
+                        <h3 id="promotionDesc">2024</h3>
+                    </span>
+                    <ul class="promotion-indicator mobile">
+                    </ul>
+                    <div class="button-group">
+                        <button id="btnPrev">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                <path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l192 192c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256 246.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-192 192z"/>
+                                </svg>
+                        </button>
+                        <ul class="promotion-indicator desktop">
+                        </ul>
+                        <button id="btnNext">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                <path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-features">
+            <div class="features">
+                <div class="title-container reveal-effect">
+                    <h1 class="title">Features</h1>
+                    <span class="line"></span>
+                </div>
+                <div class="feature-item reveal-effect">
+                    <img src="../public/icons/mobile-screen-button-solid.svg" alt="" class="item-image">
+                    <h2 class="item-title">Multi-platform</h2>
+                    <p class="item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, maxime.</p>
+                </div>
+                <div class="feature-item reveal-effect">
+                    <img src="../public/icons/tags-solid.svg" alt="" class="item-image">
+                    <h2 class="item-title">Special Price</h2>
+                    <p class="item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, maxime.</p>
+                </div>
+                <div class="feature-item reveal-effect">
+                    <img src="../public/icons/truck-pickup-solid.svg" alt="" class="item-image">
+                    <h2 class="item-title">Delivery Services</h2>
+                    <p class="item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, maxime.</p>
+                </div>
+                <div class="feature-item reveal-effect">
+                    <img src="../public/icons/headset-solid.svg" alt="" class="item-image">
+                    <h2 class="item-title">Customer Services</h2>
+                    <p class="item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, maxime.</p>
+                </div>
+            </div>
+        </section>
+        <section class="section-gallery">
+            <div class="gallery">
+                <div class="title-container reveal-effect">
+                    <h1 class="title">Gallery</h1>
+                    <span class="line"></span>
+                </div>
+                <div class="gallery-collections">
+                    <div class="gallery-item special reveal-effect">
+                        <img src="../public/Assets/product_card/2023_Mirai.jpeg" alt="">
+                        <span class="gallery-caption">
+                            <p>2023 Mirai</p>
+                        </span>
+                    </div>
+                    <div class="gallery-item reveal-effect">
+                        <img src="../public/Assets/product_card/2024_grand_highlander.jpeg" alt="">
+                        <span class="gallery-caption">
+                            <p>2024 Grand Highlander</p>
+                        </span>
+                    </div>
+                    <div class="gallery-item reveal-effect">
+                        <img src="../public/Assets/product_card/2024_land_cruiser.jpeg" alt="">
+                        <span class="gallery-caption">
+                            <p>2024 Land Cruiser</p>
+                        </span>
+                    </div>
+                    <div class="gallery-item reveal-effect">
+                        <img src="../public/Assets/product_card/2024_prius_prime.jpeg" alt="">
+                        <span class="gallery-caption">
+                            <p>2024 Prius Prime</p>
+                        </span>
+                    </div>
+                    <div class="gallery-item reveal-effect">
+                        <img src="../public/Assets/product_card/2024_RAV4.jpeg" alt="">
+                        <span class="gallery-caption">
+                            <p>2024 RAV4</p>
+                        </span>
+                    </div>
+                    <div class="gallery-item special-2 reveal-effect">
+                        <img src="../public/Assets/product_card/2024_venza.jpeg" alt="">
+                        <span class="gallery-caption">
+                            <p>2024 Venza</p>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-short-description">
+            <div class="short-description">
+                <div class="title-container reveal-effect">
+                    <h1 class="title">About Us</h1>
+                    <span class="line"></span>
+                </div>
+                <div class="left reveal-effect">
+                    <h2 class="title">wHeel Hub</h2>
+                    <p class="description">Wheel Hub, a pioneer in automotive retail since 1995, is expanding its reach
+                        with the launch of a cutting-edge website. Our showrooms, spread across the United States, have
+                        long been synonymous with quality cars and accessories. Now, our online platform aims to
+                        redefine the
+                        automotive shopping experience.</p>
+                    <a class="read-more-button" href="./aboutus.html">Read More</a>
+                </div>
+                <div class="right reveal-effect">
+                    <img src="../public/Assets/joinUsSectionBaner.jpeg" alt="" class="short-description-image">
+                </div>
+            </div>
+        </section>
+        <section class="section-promotion">
+            <div class="title-container reveal-effect">
+                <h1 class="title">Promotions</h1>
+                <span class="line"></span>
+            </div>
+            <div class="max-size">
+                <div class="promotions">
+                    <div class="promotion-item reveal-effect">
+                        <div class="promotion-image-2">
+                            <div class="promotion-caption">
+                                <div class="caption-block">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="promotion-item reveal-effect">
+                        <div class="promotion-image-2 pi-02">
+                            <div class="promotion-caption">
+                                <div class="caption-block">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="promotion-item reveal-effect">
+                        <div class="promotion-image-2 pi-03">
+                            <div class="promotion-caption">
+                                <div class="caption-block">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="promotion-item reveal-effect">
+                        <div class="promotion-image-2 pi-04">
+                            <div class="promotion-caption">
+                                <div class="caption-block">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="group-button reveal-effect">
+                        <a class="read-more-button" href="./promotion.html">More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="group-button-2 mobile">
+                <a class="read-more-button" href="./promotion.html">More</a>
+            </div>
+        </section>
+        <section class="product-section">
+            <div class="title-container reveal-effect">
+                <h1 class="title">Our Products</h1>
+                <span class="line"></span>
+            </div>
+            <div class="product-content reveal-effect">
+                <div class="product-collection">
+                    <div class="product-item">
+                        <div class="product-image">
+                            <img src="../public/Assets/2024HighlanderHybridToyota.png.webp" alt="">
+                        </div>
+                        <div class="product-obj obj1"></div>
+                        <span class="product-name">Toyota</span>
+                        <div class="product-type">Highlander</div>
+                        <div class="product-desc">
+                            <h2>$ 4,999,99</h2>
+                            <button class="product-button">Buy Now</button>
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <div class="product-image">
+                            <img src="../public/Assets/23_bZ4X_XLE_WindChillPearl_2.png" alt="">
+                        </div>
+                        <div class="product-obj obj1"></div>
+                        <span class="product-name">XLE</span>
+                        <div class="product-type">Wind Chill Pearl</div>
+                        <div class="product-desc">
+                            <h2>$ 4,999,99</h2>
+                            <button class="product-button">Buy Now</button>
+                        </div>
+                    </div>
+                    <div class="product-button-group">
+                        <a class="read-more-button" href="./allcar.html">See More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <article>
+        </article>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-col about">
+                <h4>About</h4>
+                <p class="about-text">Wheel Hub, A Pioneer In Automotive Retail Since 1995, Is Expanding Its Reach With The Launch Of A Cutting-Edge Website.</p>
+                <a class="read-more-button" href="./aboutus.html">Read More</a>
+            </div>
+            <div class="footer-col quick">
+                <h4>Quick Menu</h4>
+                <ul class="quick-menu">
+                    <li class="quick-item"><a href="./home.html" class="quick-menu-link">Home</a></li>
+                    <li class="quick-item"><a href="./aboutus.html" class="quick-menu-link">About</a></li>
+                    <li class="quick-item"><a href="./promotion.html" class="quick-menu-link">Promotion</a></li>
+                    <li class="quick-item"><a href="./allcar.html" class="quick-menu-link">All Cars</a></li>
+                </ul>
+            </div>
+            <div class="footer-col social">
+                <h4>Social</h4>
+                <ul class="social-icons">
+                    <li class="social-item">
+                        <img src="../public/icons/twitter.svg" class="social-i">
+                    </li>
+                    <li class="social-item">
+                        <img src="../public/icons/instagram.svg" class="social-i">
+                    </li>
+                    <li class="social-item">
+                        <img src="../public/icons/facebook.svg" class="social-i">
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-col newsletter">
+                <h4>Newsletter</h4>
+                <form action="" class="newsletter-form">
+                    <input type="text" class="newsletter-email" placeholder="Your Email">
+                    <input type="submit" value="Send" class="newsletter-submit">
+                </form>
+            </div>
+            <div class="footer-col copyright">
+                <p>Copyright @ 2024 All Rights Reserved | This made by Wyrtzen, Jones, Boentoro with ❤️</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="fixed-scroll">
+        <button class="button-scroll hide" id="button-scroll">
+            <img src="../public/Assets/ui/down_down_arrow.png" alt="" class="arrow">
+        </button>
+    </div>
+
+</body>
+<script src="./js/jquery-3.6.0.min.js"></script>
+<script src="./js/home.js">
+</script>
+<script src="./js/navbar.js"></script>
+<script src="./js/main.js"></script>
+
+<script>
+    
+</script>
+</html>
